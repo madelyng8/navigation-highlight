@@ -33,7 +33,13 @@ footer {
   color: #ffe500;
 }
 
-a:hover {
+.button a:hover {
   font-family: Georgia, serif;
-  color: #cc1465;
+  padding: 0 .75em;
+  color: #fff;
+  background-color: #cc1465;
+}
+
+.nav .current {
+  background-color: red;
 }
