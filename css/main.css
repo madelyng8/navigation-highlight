@@ -1,6 +1,8 @@
 html {
   box-sizing: border-box;
-  background-color: #b2a212;
+  display: inline-block;
+  background-color: #dbd6cf;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -9,9 +11,29 @@ html {
 
 h1 {
   font-family: "Sigmar One", cursive;
-  font-size: 1.875rem;
-  background-color: #fff;
+  font-size: 3rem;
   color: #b20953;
+  display: block;
+  margin: .3em;
+  text-align: center;
+}
+
+header {
+  display: block;
+  text-align: center;
+  background-color: #ffe500;
+  padding: .2em;
+}
+
+.button {
+  border-color: #ffe500;
+  background-color: #ffe500;
+  outline-offset: 2px;
+  text-align: center;
+}
+
+.hover {
+  color: #b2a212;
 }
 
 img {
@@ -19,14 +41,27 @@ img {
   width: 100%;
 }
 
+h2 {
+  color: #b20953;
+  font-family: "Sigmar One", cursive;
+  font-size: 1.875rem;
+  margin-left: .3rem;
+  display: inline-block;
+}
+
 body {
   font-family: Georgia, serif;
   margin: 0;
-  color: #2f2d13;
+  background-color: #ffe500;
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
 }
 
 p {
   font-family: Georgia, serif;
+  color: #2f2d13;
+  font-size: 1.125em;
 }
 
 footer {
@@ -42,4 +77,9 @@ footer {
 
 .nav .current {
   background-color: red;
+}
+
+a:hover {
+  font-family: Georgia, serif;
+  background-color: #b2a212;
 }
