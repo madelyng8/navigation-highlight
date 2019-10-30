@@ -1,7 +1,8 @@
 html {
   box-sizing: border-box;
   display: inline-block;
-  background-color: #dbd6cf;
+  background-color: #fff;
+  text-align: center;
   line-height: 1.5;
 }
 
@@ -12,10 +13,20 @@ html {
 h1 {
   font-family: "Sigmar One", cursive;
   font-size: 3rem;
-  color: #b20953;
   display: block;
-  margin: .3em;
-  text-align: center;
+  margin: 0;
+  color: #b20953;
+}
+
+p {
+  background-color: #fff;
+  font-size: 1.125em;
+  font-family: Georgia, serif;
+  margin: .4em;
+}
+
+.berries {
+  color: #b20953;
 }
 
 header {
@@ -32,8 +43,28 @@ header {
   text-align: center;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  font-size: 1.125rem;
+  margin: 0;
+  list-style-type: none;
+}
+
 .hover {
   color: #b2a212;
+}
+
+nav a:hover {
+  color: #cc1465;
+}
+
+main {
+  margin: 0;
 }
 
 img {
@@ -44,35 +75,27 @@ img {
 h2 {
   color: #b20953;
   font-family: "Sigmar One", cursive;
+  text-align: left;
+  margin: .6em .3em;
   font-size: 1.875rem;
-  margin-left: .3rem;
-  display: inline-block;
 }
 
 body {
   font-family: Georgia, serif;
   margin: 0;
-  background-color: #ffe500;
+  color: #2f2d13;
+  background-color: #fff;
   text-align: center;
   list-style-type: none;
   text-decoration: none;
 }
 
-p {
-  font-family: Georgia, serif;
-  color: #2f2d13;
-  font-size: 1.125em;
-}
-
 footer {
-  color: #ffe500;
-}
-
-.button a:hover {
-  font-family: Georgia, serif;
-  padding: 0 .75em;
-  color: #fff;
-  background-color: #cc1465;
+  color: #2f2d13;
+  background-color: #ffe500;
+  text-align: center;
+  padding: 1.25em;
+  font-size: .75em;
 }
 
 .nav .current {
@@ -81,5 +104,14 @@ footer {
 
 a:hover {
   font-family: Georgia, serif;
+  background-color: #cc1465;
+}
+
+a {
+  border-radius: 4px;
+  font-size: 1.125rem;
+  color: #fff;
   background-color: #b2a212;
+  padding: .2em .5em .3em;
+  display: inline-block;
 }
